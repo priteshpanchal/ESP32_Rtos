@@ -41,7 +41,7 @@ void startTask2(void *parameter) {
 
   //print string to terminal
   while (1) {
-    Serial.println("*");
+    Serial.print("*");
     vTaskDelay(100 / portTICK_PERIOD_MS);
   }
 }
